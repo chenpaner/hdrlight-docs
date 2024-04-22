@@ -1,0 +1,33 @@
+site_name: MkLorum
+site_url: https://kevancress.github.io/MeasureIt_ARCH/
+extra_css: [extra.css]
+repo_url: https://github.com/kevancress/MeasureIt_ARCH
+edit_uri: edit/development/docs/docs/
+
+nav:
+  - Home: index.md
+  - Tutorials:
+    - Tutorial 1: Tutorial 1.md
+
+  - About: about.md
+theme:
+  name: readthedocs
+  highlightjs: true
+  hljs_languages:
+    - yaml
+    - rust
+  # color_mode: auto  # 设置颜色模式为自动
+  # nav_style: primary  #调整顶部导航栏的视觉样式primary、dark 或 light
+  # highlightjs: true #选项用于启用或禁用使用 highlight.js JavaScript 库对代码块中的源代码进行高亮显示
+
+  include_homepage_in_sidebar:  true #readthedocs在边栏菜单中列出主页
+  prev_next_buttons_location: bottom #显示“下一步”和“上一步”按钮
+  navigation_depth: 4 #设置侧边栏菜单的深度
+  collapse_navigation: true # 折叠导航栏
+  sticky_navigation: true # 粘性导航栏
+  show_sidebar_search: true # 显示侧边栏搜索
+  show_sidebar_toc: true # 显示侧边栏目录
+  show_sidebar_home: true # 显示侧边栏主页
+  locale : zh_CN # 设置语言
+  #logo: CP-logo.png  # 设置logo
+  
